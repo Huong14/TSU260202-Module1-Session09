@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.menu a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+.btn-contactus {
+    border: none;
+    background-color: black;
+    padding: 6px 10px;
+    border-radius: 4px;
+    color: white;
+}
