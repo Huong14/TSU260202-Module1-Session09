@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title {
+    color: blue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.hero {
+    background-color: rgb(255, 252, 244);
+    height: 600px;
+    position: relative;
+}
+ 
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.menu a {
+    text-decoration: none;
+}
+ .btn-signup {
+    padding: 5px 16px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+ }
+.lession-photo {
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    left: 100px;
+}
+.hero1 {
+    height: 500px;
+    width: 400px;
+    right: 100px;
+    top: 100px;
+    position: absolute;
+}
+
+.hero2 {
+    height: 600px;
+}
+.hero2-text {
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.hero2-box {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.hero4 {
+    height: 300px;
+    background-color: rgb(46, 33, 0);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+}
+
+.peter {
+    height: 200px;
+    width: 300px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.comment {
+    height: 200px;
+    width: 600px;
+    padding-right: 100px;
+    padding-top: 100px;
+}
