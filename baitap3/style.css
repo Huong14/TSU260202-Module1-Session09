@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.menu a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+.btn-signin {
+    border: none;
+    background-color: white;
+    padding: 5px 10px;
+}
+.btn-signup {
+    color: aquamarine;
+    border: 1px solid aquamarine;
+    background-color: white;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+.hero {
+    height: 600px;
+    position: relative;
+}
+
+.hero-container {
+    height: 600px;
+    width: 450px;
+    padding-left: 100px;
+    padding-top: 20px;    
+}
+
+.getstared {
+    border: none;
+    background-color: rgb(30, 191, 193);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+}
+
+.teacher {
+    height: 400px;
+    width: 450px;
+    position: absolute;
+    right: 100px;
+    top: 0px;
+    background-color: rgb(224, 247, 246);
+}
